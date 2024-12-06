@@ -136,5 +136,31 @@ while (x < 13) {
 */
 console.log("ESERCIZIO 10");
 const charactersArray = ['g', 'n', 'u', 'z', 'd']
-const alphabet = ["a","b","c","d","e","f","g","h","i","l","m","n","o","p","q","r","s","t","u","v","z"];
+const alphabet = "abcdefghilmnopqrstuvz";
 const numArray = [];
+for (let i = 0; i < charactersArray.length; i++) {
+  switch (charactersArray[i]) {
+      case 'a': numArray.push(1); break;
+      case 'b': numArray.push(2); break;
+      case 'c': numArray.push(3); break;
+      case 'd': numArray.push(4); break;
+      case 'e': numArray.push(5); break;
+      case 'f': numArray.push(6); break;
+      case 'g': numArray.push(7); break;
+      case 'h': numArray.push(8); break;
+      case 'i': numArray.push(9); break;
+      case 'l': numArray.push(10); break;
+      case 'm': numArray.push(11); break;
+      case 'n': numArray.push(12); break;
+      case 'o': numArray.push(13); break;
+      case 'p': numArray.push(14); break;
+      case 'q': numArray.push(15); break;
+      case 'r': numArray.push(16); break;
+      case 's': numArray.push(17); break;
+      case 't': numArray.push(18); break;
+      case 'u': numArray.push(19); break;
+      case 'v': numArray.push(20); break;
+      case 'z': numArray.push(21); break;
+  }
+};
+console.log(numArray);

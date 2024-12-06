@@ -137,6 +137,7 @@ console.log("ESERCIZIO 10");
 const charactersArray = ['g', 'n', 'u', 'z', 'd']
 const alphabet = ["a","b","c","d","e","f","g","h","i","l","m","n","o","p","q","r","s","t","u","v","z"];
 const numArray = [];
+console.log(alphabet.indexOf(0))
 switch (charactersArray.indexOf()) {
    case 0:
     for(i = 0; i < alphabet.length; i++) {

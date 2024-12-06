@@ -122,11 +122,12 @@ for (i = 0; i < cars.length; i++) {
     Utilizza un ciclo while per stampare in console i valori del seguente array numerico fino al raggiungimento del numero 32.
 */
 console.log("ESERCIZIO 9");
-const numericArray = [
-  6, 90, 45, 75, 84, 98, 35, 74, 31, 2, 8, 23, 100, 32, 66, 313, 321, 105,
-];
-
-
+const numericArray = [6, 90, 45, 75, 84, 98, 35, 74, 31, 2, 8, 23, 100, 32, 66, 313, 321, 105];
+let x = 0;
+while (x < 13) {
+    console.log(numericArray[x]);  
+  x++;
+}
 
 /* ESERCIZIO 10
     Partendo dall'array fornito e utilizzando un costrutto switch, genera un nuovo array composto dalle posizioni di ogni carattere all'interno
@@ -137,42 +138,3 @@ console.log("ESERCIZIO 10");
 const charactersArray = ['g', 'n', 'u', 'z', 'd']
 const alphabet = ["a","b","c","d","e","f","g","h","i","l","m","n","o","p","q","r","s","t","u","v","z"];
 const numArray = [];
-console.log(alphabet.indexOf(0))
-switch (charactersArray.indexOf()) {
-   case 0:
-    for(i = 0; i < alphabet.length; i++) {
-      if (alphabet[i] === charactersArray[0]) {
-        numArray.push(alphabet.indexOf(alphabet[i]));
-      }
-    }
-    break;
-    case 1:
-    for(i = 0; i < alphabet.length; i++) {
-      if (alphabet[i] === charactersArray[0]) {
-        numArray.push(alphabet.indexOf(alphabet[i]));
-      }
-    }
-    break;
-    case 2:
-    for(i = 0; i < alphabet.length; i++) {
-      if (alphabet[i] === charactersArray[0]) {
-        numArray.push(alphabet.indexOf(alphabet[i]));
-      }
-    }
-    break;
-    case 3:
-    for(i = 0; i < alphabet.length; i++) {
-      if (alphabet[i] === charactersArray[0]) {
-        numArray.push(alphabet.indexOf(alphabet[i]));
-      }
-    }
-    break;
-    case 4:
-    for(i = 0; i < alphabet.length; i++) {
-      if (alphabet[i] === charactersArray[0]) {
-        numArray.push(alphabet.indexOf(alphabet[i]));
-      }
-    }
-    break;
-} 
-console.log(numArray);
